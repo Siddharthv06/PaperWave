@@ -1,213 +1,460 @@
-﻿<div align="center">
+# PaperWave
 
-<img src="docs/banner.png" alt="PaperWave Banner" width="100%" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/94ae8606-7e9d-4411-8854-df321087d91f" alt="PaperWave Banner" width="100%">
+</p>
 
-# 🎵 PaperWave
+<h1 align="center">PaperWave</h1>
 
-**Your music. Your paper universe.**
+<p align="center">
+A modern Flutter music player featuring a hand-drawn notebook aesthetic, seamless offline playback, online music discovery, and a highly customizable listening experience.
+</p>
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![Android](https://img.shields.io/badge/Android-Supported-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com)
-[![License](https://img.shields.io/badge/License-MIT-FFE38A?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.0-DCC5FF?style=for-the-badge)](https://github.com/Siddharthv06/PaperWave/releases)
+<p align="center">
 
-*A beautifully crafted Flutter music player blending a paper-notebook aesthetic with a modern dark UI.*
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Android](https://img.shields.io/badge/Android-Supported-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Material 3](https://img.shields.io/badge/Material-3-6750A4?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-[Features](#-features) · [Getting Started](#-getting-started) · [Architecture](#-architecture) · [Tech Stack](#-tech-stack)
+</p>
 
-</div>
+<p align="center">
 
----
+**Offline Music • Online Music Reels • Beautiful Animations • Material 3 • Paper UI**
 
-## ✨ Features
-
-### 🎧 Core Playback
-- **Local Music Library** — Scans your device for all audio files using `on_audio_query`, sorted alphabetically
-- **Background Playback** — Keeps playing when the screen is off or the app is minimized, powered by `just_audio_background`
-- **Lock-screen & Notification Controls** — Full media controls in the system notification tray
-- **Seek & Scrub** — Smooth progress slider with real-time position/duration display
-- **Previous / Next** — Queue-aware skip controls with haptic feedback
-
-### 🌐 Music Reels (Online Mode)
-- **TikTok-style vertical feed** — Swipe through song previews from your favourite genres
-- **12+ Genre Buckets** — Bollywood, Hindi Indie, Punjabi, English Pop, English Rock, Hip-Hop/Rap, EDM, K-Pop, Lo-Fi/Chill, Latin, Jazz, Classical
-- **iTunes Previews & Jamendo Full Tracks** — Toggle between 30s previews and full free tracks
-- **Genre Picker** — Select any mix of genres before loading the feed
-- **Like & Save** — Heart any online track to add it to your **Liked Online** playlist
-
-### 📀 Now Playing Screen
-- **Rotating Vinyl Record** — Physics-accurate smooth spin-up / spin-down animation synced to playback state
-- **Album Art** — Displayed in the center of the vinyl with fade + scale transition on track change
-- **Vinyl Groove Painter** — Custom `CustomPaint` rendering of realistic groove rings
-- **Floating Music Notes** — Animated musical notes float up while music plays
-- **Ambient Paper Background** — Dynamic texture (Grid, Dots, Lines, Blank styles)
-- **Like Toggle** — Animated heart button with haptic feedback
-
-### 📋 Playlist Management
-- **Create Custom Playlists** — Name and save any number of playlists, persisted locally
-- **Add / Remove Songs** — Long-press any track to manage it in a playlist
-- **Delete Playlists** — Swipe or button-delete any playlist
-- **Liked Online** — Auto-created playlist that aggregates all saved online tracks
-- **Playlist Playback** — Tap a playlist to queue all its songs immediately
-
-### 🔍 Search
-- **Real-time Search** — Filter your local library by title or artist as you type
-- **Category Tabs** — Switch between Music, Recordings, and Other audio files
-
-### 🎨 Theming & Customization
-
-| Setting | Options |
-|---------|---------|
-| **Theme** | Light / Dark |
-| **Accent Color** | Yellow · Purple · Blue · Green · Orange · Pink · Teal · Lime · Red · Indigo |
-| **Paper Style** | Grid · Dots · Lines · Blank |
-| **Vinyl Rotation Speed** | Chill · Vibe · Fast |
-| **Sound Preset** | Cassette (Lo-Fi) · Studio · Concert · Night Drive |
-
-> All settings are persisted across sessions with `shared_preferences`.
-
-### 💅 UI / UX Details
-- **Glassmorphism** — Frosted-glass surfaces with depth
-- **Sketchy Containers** — Hand-drawn border aesthetic for cards and controls
-- **Tactile Buttons** — Press-scale animation + haptic feedback on every tap
-- **Mini Player** — Persistent bottom bar with title and controls while navigating tabs
-- **Demo Mode** — 4 built-in SoundHelix tracks load automatically on web or when permissions are denied
+</p>
 
 ---
 
-## 🚀 Getting Started
+## 📖 About
 
-### Prerequisites
+PaperWave is a modern Flutter music player that combines a unique paper-inspired interface with powerful music playback features.
+
+Unlike traditional music players, PaperWave offers a cozy notebook aesthetic complete with hand-drawn UI elements, animated vinyl records, floating music notes, and customizable paper backgrounds.
+
+The app supports both **offline playback** from your device and **online music discovery** through a vertical reels experience powered by iTunes previews and Jamendo tracks.
+
+Built with Flutter, PaperWave demonstrates custom animations, responsive UI design, local media management, background audio playback, and modern mobile development practices.
+
+---
+
+## ✨ Highlights
+
+- 🎵 Offline music playback
+- 🌐 Online Music Reels
+- 📀 Animated Vinyl Player
+- 📂 Playlist Management
+- ❤️ Liked Songs
+- 🔍 Smart Search
+- 🎨 Notebook-inspired UI
+- 🌙 Light & Dark Themes
+- 🎧 Background Playback
+- ⚡ Smooth Material 3 Animations
+
+  ---
+
+## 📱 App Showcase
+
+Experience PaperWave's notebook-inspired interface through a selection of its core screens.
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://github.com/user-attachments/assets/c3ca913d-ff7c-4685-b8d9-beea5058fd04" width="230">
+
+<br><br>
+
+**🏠 Home**
+
+Browse your local music library with a clean, paper-inspired interface and quick access to recently played songs.
+
+</td>
+
+<td align="center" width="33%">
+<img src="https://github.com/user-attachments/assets/f88315ce-f58c-4425-9b42-e6664c1b98b6" width="230">
+
+<br><br>
+
+**🎵 Genre Selection**
+
+Choose from multiple music genres before exploring online Music Reels.
+
+</td>
+
+<td align="center" width="33%">
+<img src="https://github.com/user-attachments/assets/3bc6503b-5e3b-4074-bea3-6107fc0635ee" width="230">
+
+<br><br>
+
+**🌐 Music Reels**
+
+Swipe vertically through curated music previews and discover new tracks.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="https://github.com/user-attachments/assets/650e9bdf-a612-46d8-b37a-d0acbf992935" width="260">
+
+<br><br>
+
+**📚 Offline Library**
+
+Automatically scans and organizes music stored on your device into an easy-to-browse library.
+
+</td>
+
+<td align="center" width="50%">
+<img src="https://github.com/user-attachments/assets/0401bb6c-46b4-4b4d-9569-ff2a908ffd3a" width="260">
+
+<br><br>
+
+**⚙️ Personalization**
+
+Customize themes, accent colors, paper styles, vinyl speed, and sound presets to match your style.
+
+</td>
+</tr>
+</table>
+---# ✨ Features
+
+## 🎵 Music Playback
+
+- 🎧 Play music directly from your device
+- 🌐 Discover music through online Music Reels
+- ⏯️ Play, pause, next, and previous controls
+- 📀 Queue management
+- 🔄 Background playback
+- 📱 Lock screen and notification controls
+- 🎚️ Interactive seek bar with real-time progress
+- 🔊 System volume integration
+
+---
+
+## 🌐 Online Music Reels
+
+Discover new songs with a vertical swipe experience inspired by short-form content.
+
+### Supported Genres
+
+- 🎤 Bollywood
+- 🇮🇳 Hindi Indie
+- 🎶 Punjabi
+- 🎸 English Rock
+- 🎧 English Pop
+- 🎙️ Hip-Hop / Rap
+- ⚡ EDM
+- 🌸 K-Pop
+- 🌙 Lo-Fi & Chill
+- 💃 Latin
+- 🎷 Jazz
+- 🎼 Classical
+
+### Sources
+
+- iTunes 30-second previews
+- Jamendo full-length royalty-free tracks
+
+Features include:
+
+- ❤️ Like songs
+- 💾 Save to **Liked Online**
+- 🔀 Switch genres anytime
+- 📱 Smooth vertical scrolling
+
+---
+
+## 📀 Now Playing Experience
+
+PaperWave's signature player combines smooth animations with a notebook-inspired design.
+
+### Highlights
+
+- 💿 Rotating vinyl animation
+- 🎵 Animated album artwork
+- ✨ Floating music notes
+- ❤️ Animated Like button
+- 🎨 Paper-inspired background
+- 📈 Smooth playback progress
+- 📀 Custom vinyl groove rendering
+- 📳 Haptic feedback
+
+---
+
+## 📚 Library Management
+
+Manage your music effortlessly.
+
+- 📂 Automatic local music scanning
+- 🎵 Music library
+- 🎙️ Recordings
+- 📁 Other audio files
+- 🔍 Real-time search
+- 📑 Alphabetical sorting
+
+---
+
+## 📋 Playlist Management
+
+- ➕ Create unlimited playlists
+- 🎵 Add songs to playlists
+- ❌ Remove songs
+- 🗑️ Delete playlists
+- ❤️ Auto-generated Liked Online playlist
+- ▶️ Play an entire playlist instantly
+
+---
+
+## 🎨 Personalization
+
+Customize PaperWave to match your style.
+
+### Themes
+
+- 🌞 Light
+- 🌙 Dark
+
+### Accent Colors
+
+- 💛 Yellow
+- 💜 Purple
+- 💙 Blue
+- 💚 Green
+- 🧡 Orange
+- 💗 Pink
+- 💎 Teal
+- 💚 Lime
+- ❤️ Red
+- 💙 Indigo
+
+### Paper Styles
+
+- 📄 Grid
+- • Dots
+- 📏 Lines
+- ⬜ Blank
+
+### Vinyl Speed
+
+- 🐢 Chill
+- 🎶 Vibe
+- ⚡ Fast
+
+### Sound Presets
+
+- 📼 Cassette
+- 🎙️ Studio
+- 🎼 Concert
+- 🌃 Night Drive
+
+All preferences are automatically saved using `shared_preferences`.
+
+---
+
+## 🎨 UI Highlights
+
+- ✏️ Hand-drawn notebook aesthetic
+- 📄 Sketch-style containers
+- 🎞️ Smooth animations
+- 📳 Haptic feedback
+- 📱 Material 3 design
+- 🎵 Persistent mini player
+- 🚀 Responsive layout
+- 🌐 Demo mode for web and permission-free devices
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+Before running the project, make sure you have the following installed:
 
 | Tool | Version |
 |------|---------|
-| Flutter SDK | `^3.12.2` |
-| Dart SDK | `^3.12.2` |
+| Flutter SDK | 3.x or later |
+| Dart SDK | Included with Flutter |
 | Android Studio / VS Code | Latest |
-| Android device / emulator | API 21+ |
+| Android Device or Emulator | API 21+ |
 
-### Installation
+To verify your Flutter installation:
 
 ```bash
-# 1. Clone the repository
+flutter doctor
+```
+
+---
+
+## Installation
+
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/Siddharthv06/PaperWave.git
+```
+
+### 2️⃣ Navigate to the project
+
+```bash
 cd PaperWave
+```
 
-# 2. Install dependencies
+### 3️⃣ Install dependencies
+
+```bash
 flutter pub get
+```
 
-# 3. Run on your device
+### 4️⃣ Run the application
+
+```bash
 flutter run
 ```
 
-### Android Permissions
+---
 
-The app requests the following permissions at runtime:
+# 📦 Build APK
 
-```xml
-<uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-<uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
-```
-
-> **Note:** On Android 13+, `READ_MEDIA_AUDIO` is used. On older versions, `READ_EXTERNAL_STORAGE` is the fallback.
-
-### Build APK
+Generate a release APK:
 
 ```bash
-# Debug APK
-flutter build apk --debug
-
-# Release APK
 flutter build apk --release
 ```
 
+The generated APK will be available at:
+
+```text
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+To build a debug APK:
+
+```bash
+flutter build apk --debug
+```
+
 ---
 
-## 🏗️ Architecture
+# 🔐 Android Permissions
 
-```
+PaperWave requests the following Android permissions:
+
+| Permission | Purpose |
+|------------|---------|
+| `READ_MEDIA_AUDIO` | Access audio files on Android 13+ |
+| `READ_EXTERNAL_STORAGE` | Access audio files on Android 12 and below |
+| `INTERNET` | Online music streaming |
+| `FOREGROUND_SERVICE` | Background playback |
+| `FOREGROUND_SERVICE_MEDIA_PLAYBACK` | Media notification controls |
+
+> **Note:** Android 13 and above use `READ_MEDIA_AUDIO`, while older Android versions automatically fall back to `READ_EXTERNAL_STORAGE`.
+
+---
+
+# 🛠 Tech Stack
+
+## Framework
+
+- Flutter
+- Dart
+- Material 3
+
+## Audio
+
+- `just_audio`
+- `just_audio_background`
+- `on_audio_query`
+
+## State & Storage
+
+- `shared_preferences`
+
+## Networking
+
+- `http`
+
+## Permissions
+
+- `permission_handler`
+
+## UI
+
+- `google_fonts`
+- `glassmorphism`
+
+## Device Integration
+
+- `flutter_volume_controller`
+
+---
+
+# 📂 Project Structure
+
+```text
 lib/
-├── main.dart                        # App entry, theme notifier, background audio init
+│
+├── main.dart
 │
 ├── screens/
-│   ├── home_screen.dart             # Main shell: library, playlists, settings, mode selector
-│   ├── full_player_screen.dart      # Full-screen now-playing view
-│   └── music_reels_screen.dart      # Online vertical-swipe music feed
+│   ├── home_screen.dart
+│   ├── full_player_screen.dart
+│   └── music_reels_screen.dart
 │
-└── widgets/
-    ├── animation_widgets.dart        # RotatingVinyl, FloatingNotes, TactileButton, HeartLikeButton, SmoothSlider
-    ├── ambient_background.dart       # Paper-texture background painter
-    ├── artwork_widget.dart           # Album art resolver widget
-    ├── mini_player.dart              # Persistent bottom mini-player bar
-    ├── permission_denied_view.dart   # Storage permission fallback UI
-    ├── playlist_dialog.dart          # Create-playlist input dialog
-    ├── sketchy_container.dart        # Hand-drawn border container
-    └── song_tile.dart                # Individual song row with long-press menu
+├── widgets/
+│   ├── animation_widgets.dart
+│   ├── ambient_background.dart
+│   ├── artwork_widget.dart
+│   ├── mini_player.dart
+│   ├── permission_denied_view.dart
+│   ├── playlist_dialog.dart
+│   ├── sketchy_container.dart
+│   └── song_tile.dart
+│
+├── models/
+├── services/
+└── utils/
 ```
 
-### Key Design Decisions
-
-- **Stream-based reactive UI** — Player state, position, and sequence driven by `just_audio` streams, no polling
-- **`on_audio_query`** — Direct MediaStore access for fast, metadata-rich local library scanning
-- **`SharedPreferences` persistence** — All playlists, liked songs, and settings survive cold restarts
-- **Demo Mode** — Automatically activates on web or when permissions are denied; app is always usable
-
 ---
 
-## 📦 Tech Stack
+# 🏗 Architecture
 
-| Package | Purpose |
-|---------|---------|
-| [`just_audio`](https://pub.dev/packages/just_audio) | Core audio engine |
-| [`just_audio_background`](https://pub.dev/packages/just_audio_background) | Background playback & notification controls |
-| [`on_audio_query`](https://pub.dev/packages/on_audio_query) | Local media library scanning |
-| [`permission_handler`](https://pub.dev/packages/permission_handler) | Runtime permission requests |
-| [`glassmorphism`](https://pub.dev/packages/glassmorphism) | Frosted-glass UI surfaces |
-| [`shared_preferences`](https://pub.dev/packages/shared_preferences) | Persistent local storage |
-| [`http`](https://pub.dev/packages/http) | Online music API requests (iTunes / Jamendo) |
-| [`google_fonts`](https://pub.dev/packages/google_fonts) | Custom typography |
-| [`flutter_volume_controller`](https://pub.dev/packages/flutter_volume_controller) | System volume integration |
+PaperWave follows a modular Flutter architecture to keep the codebase clean and maintainable.
 
----
+### 🎵 Audio Engine
 
-## 🗺️ Roadmap
+- `just_audio` powers playback.
+- `just_audio_background` provides lock screen controls and background playback.
 
-- [ ] 🔀 Shuffle & repeat modes
-- [ ] ⏱️ Sleep timer
-- [ ] 📻 Equalizer / sound presets (hardware-level)
-- [ ] ☁️ Cloud backup for playlists
-- [ ] 🍎 iOS support
-- [ ] 🎤 Lyrics display (via LRCLib API)
-- [ ] 📊 Listening statistics & wrapped
+### 📂 Local Music
 
----
+- `on_audio_query` scans the device for local audio files and retrieves metadata such as album art, artist names, and durations.
 
-## 🤝 Contributing
+### 🌐 Online Music
 
-Contributions, issues, and feature requests are welcome!
+- Music previews are fetched from the iTunes Search API.
+- Royalty-free full tracks are available through Jamendo.
 
-1. Fork the project
-2. Create your branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
+### 💾 Persistence
+
+Using `shared_preferences`, the app stores:
+
+- Theme settings
+- Accent color
+- Paper style
+- Vinyl speed
+- Audio preset
+- Custom playlists
+- Liked online songs
+
+These settings remain available after restarting the app.
 
 ---
-
-## 📄 License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
-
----
-
-<div align="center">
-
-Made with ❤️ and Flutter by **[Siddharthv06](https://github.com/Siddharthv06)**
-
-*If you like PaperWave, drop a ⭐ — it means the world!*
-
-</div>
+  
